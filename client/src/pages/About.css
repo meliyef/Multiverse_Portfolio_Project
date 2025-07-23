@@ -1,0 +1,38 @@
+.about-page {
+    min-height: 100vh;
+    background: linear-gradient(to right, #2e2778, #2b2751, #7777b8);
+    padding: 3rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .section-box {
+    background-color: white;
+    color: #1a1a1a;
+    flex: 1 1 500px;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .section-box h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #302b63;
+  }
+  
+  .section-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  

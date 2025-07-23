@@ -1,0 +1,61 @@
+/* ContactForm.css */
+
+form {
+    max-width: 450px;
+    margin: 2rem auto;
+    padding: 5rem;
+    border-radius: 12px;
+    color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.25rem;
+    border: 2px solid #555;
+    border-radius: 8px;
+
+    color: black;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    resize: vertical;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    border-color: #ff4b91; /* pink highlight */
+    outline: none;
+  }
+  
+  textarea {
+    min-height: 120px;
+  }
+  
+  button[type="submit"] {
+    background: linear-gradient(90deg, #ff4b91, #8e2de2, #3a8dde);
+    border: none;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.4s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background: linear-gradient(90deg, #3a8dde, #8e2de2, #ff4b91);
+  }
+  
+  p {
+    margin-top: 1rem;
+    font-weight: 600;
+    min-height: 1.5em;
+    text-align: center;
+    
+  }
+  
