@@ -4,7 +4,8 @@ This is my professional portfolio website built with React, styled with custom C
 
 ## 🌐 Live Demo
 
-[View the site](https://your-live-link.com) *(coming soon!)*
+[Front End](https://multiverse-portfolio-project.vercel.app/)  
+[Back End](https://multiverse-portfolio-project.onrender.com/contact)  
 
 ---
 
