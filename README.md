@@ -45,9 +45,9 @@ This is my professional portfolio website built with React, styled with custom C
 
 **Other:**
 - Git & GitHub
-- Netlify (frontend deployment)
-- Docker (soon)
-- Render or Railway (backend deployment)
+- Vercel (Front end deployment)
+- Docker
+- Render (backend deployment)
 
 ---
 
