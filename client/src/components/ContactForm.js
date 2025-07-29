@@ -13,7 +13,7 @@ function ContactForm() {
     e.preventDefault();
     setStatus('Sending...');
     try {
-      const res = await fetch('http://localhost:5000/contact', {
+      const res = await fetch('https://multiverse-portfolio-project.onrender.com/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
